@@ -1,4 +1,4 @@
-require_relative '../point'
+require_relative '../lib/rubycopter/point'
 
 describe Point do
   subject(:point) { described_class.new }

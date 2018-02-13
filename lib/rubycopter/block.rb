@@ -9,10 +9,10 @@ class Block
 
   def initialize(x, y)
     @pos = Point.new(x, y)
-    @img = Gosu::Image.new('images/rock47.png')
+    @img = Gosu::Image.new('data/images/rock47.png')
     @size = Point.new(@img.height, @img.width)
     # 637 x 478 | 8 x 6 | ~ 80 x 80
-    @explosion_img = Gosu::Image.load_tiles 'images/expl-sprites.png', 80, 80
+    @explosion_img = Gosu::Image.load_tiles 'data/images/expl-sprites.png', 80, 80
     @explosion_anim = Animation.new(@explosion_img[0..47], 0.02, true)
     @explode = false
   end

@@ -1,6 +1,6 @@
 # Run:
 
-bundle exec ruby game.rb
+bundle exec ruby rubycopter.rb
 
 # Tests:
 

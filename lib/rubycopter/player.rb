@@ -13,8 +13,8 @@ class Player
   attr_accessor :state, :alive
 
   def initialize
-    @frames = Gosu::Image.load_tiles 'images/heli-sprites.png', 423, 150
-    @fire = Gosu::Image.load_tiles 'images/fire-sprites.png', 64, 128
+    @frames = Gosu::Image.load_tiles 'data/images/heli-sprites.png', 423, 150
+    @fire = Gosu::Image.load_tiles 'data/images/fire-sprites.png', 64, 128
     @move = { slow: Animation.new(@frames[0..3], 0.06, false),
               fast: Animation.new(@frames[0..3], 0.03, false),
               fire: Animation.new(@fire[0..31], 0.01, false) }

@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'rubycopter/rubycopter'
+
+Rubycopter::GameWindow.new.show

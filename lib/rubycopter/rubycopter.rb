@@ -20,7 +20,7 @@ class GameWindow < Gosu::Window # rubocop:disable Metrics/ClassLength
   def initialize
     super 800, 604
     @backgrounds = []
-    1.upto(11) { |n| @backgrounds << Gosu::Image.new("images/#{n}.png") }
+    1.upto(11) { |n| @backgrounds << Gosu::Image.new("data/images/#{n}.png") }
     @state = GameState.clone
     @player = Player.new
     @font = Gosu::Font.new(self, Gosu.default_font_name, 50)

@@ -1,0 +1,13 @@
+Gem::Specification.new do |s|
+    s.name        = 'rubycopter'
+    s.version     = '1.0.0'
+    s.date        = '2018-02-13'
+    s.summary     = "Helicopter game!"
+    s.description = "Fly through the open world"
+    s.authors     = ["Aleksandr Shatrovskii"]
+    s.email       = 'shatrale@gmail.com'
+    s.files       = Dir['data/**/*', 'lib/**/*', '*.gemspec', 'LICENSE*', 'README*']
+    s.homepage    =
+      'http://rubygems.org/gems/rubycopter'
+    s.license       = 'MIT'
+  end
