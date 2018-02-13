@@ -1,0 +1,10 @@
+
+BG_SCROLL_SPEED = 10 # pixels per second
+BASE_BLOCK_PROBABILITY = 0.3
+
+HELISIZE = 0.2
+GRAVITY = Point.new(0, 900)
+LIFT = Point.new(0, -30)
+
+BLOCK_GRID_X = 8
+BLOCK_GRID_Y = 10
